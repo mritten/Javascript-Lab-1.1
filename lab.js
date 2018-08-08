@@ -12,8 +12,8 @@ let winCount=0;
 while (playerHealth >=0 && winCount < 3) {
   playerHealth -= Math.floor((Math.random() * 2) + 1);
   grantHealth -= Math.floor((Math.random() * 2) + 1);
-console.log(`${playerName} has ${playerHealth} life left`)
-console.log(`${grant} has ${grantHealth} life left`)
+console.log(`${playerName} has ${playerHealth} health left`)
+console.log(`${grant} has ${grantHealth} health left`)
 
 if (grantHealth <= 0) {
   winCount++;
